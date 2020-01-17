@@ -1,1 +1,4 @@
-// Code your solution here
+// Code your solution 
+function findMatching(arr, s) {
+  
+}
