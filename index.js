@@ -18,7 +18,8 @@ function fuzzyMatch  (arr, s) {
 function matchName  (arr, s) {
   arr = arr.filter(function (ss){
     
-    return ss['name'] ===s
+    return ss['name'] ===s})
+    return arr;
   })
   
 }
