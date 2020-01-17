@@ -5,4 +5,5 @@ function findMatching(arr, s) {
     return ss.toLowerCase() === s.toLowerCase();
 
   })
+  return arr;
 }
