@@ -8,3 +8,7 @@ function findMatching(arr, s) {
   return arr;
 }
 
+function fuzzyMatch  (arr, s) {
+  
+  
+}
