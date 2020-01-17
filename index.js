@@ -9,6 +9,9 @@ function findMatching(arr, s) {
 }
 
 function fuzzyMatch  (arr, s) {
-  
-  
+    arr= arr.filter(function(ss){
+    return ss.toLowerCase().indexOf(s.toLowerCase()) === 0;
+  })
+  return arr;
 }
+  
