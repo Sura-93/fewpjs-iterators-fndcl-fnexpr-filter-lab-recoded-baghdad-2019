@@ -18,7 +18,7 @@ function fuzzyMatch  (arr, s) {
 function matchName  (arr, s) {
   arr = arr.filter(function (ss){
     
-    return ss.toLowerCase().indexOf(s.toLowerCase()===arr[''])
+    return ss['name'] ===s
   })
   
 }
