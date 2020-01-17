@@ -15,3 +15,10 @@ function fuzzyMatch  (arr, s) {
   return arr;
 }
   
+function matchName  (arr, s) {
+  arr = arr.filter(function (ss){
+    
+    return ss.toLowerCase().indexOf(s.toLowerCase()===arr[''])
+  })
+  
+}
